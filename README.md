@@ -1,6 +1,8 @@
 ### Hey, I'm Josh 👋
 
-Platform architect and SAP infrastructure specialist with 12 years of enterprise operations experience. I build monitoring software that replaces commercial SaaS platforms.
+I built an enterprise monitoring platform that rivals expensive SaaS tools—in 6 weeks, solo, using AI-assisted development.
+
+12 years in SAP infrastructure → discovered AI-assisted development → shipped MonLite (full-stack observability covering SAP, 7 databases, hosts, and AI diagnostics).
 
 ---
 
