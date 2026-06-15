@@ -9,7 +9,7 @@ In the past year I independently designed and shipped **three production-grade s
 #### 🚀 What I've built
 
 **MonLite — Enterprise Observability Platform**
-A full-stack platform monitoring SAP, six database engines, hosts, and web services — engineered to replace a seven-figure commercial monitoring contract. Python/FastAPI control plane, distributed collector agents, a React 19 UI, SSO/RBAC, and ~5s HA failover. Scale-validated to 3,000+ monitored systems and 200+ concurrent users.
+A full-stack platform monitoring SAP, six database engines, hosts, and web services — engineered to replace a seven-figure commercial monitoring contract. Python/FastAPI control plane, distributed collector agents, a React 19 UI, SSO/RBAC, and ~5s HA failover. Scale-tested to handle 3,000+ systems and 200+ concurrent users.
 > 🌙 **Luna** — its embedded AI diagnostic assistant — runs **fully air-gapped on a local LLM** so telemetry never leaves the firewall (with optional cloud fallback). RAG pipeline, 100+ diagnostic tools, live database querying, and anti-hallucination validation turn raw infrastructure telemetry into natural-language root-cause analysis. This is enterprise AI that ships *and* satisfies security.
 
 **Pathfinder — AI-Augmented SAP Migration Engine**
