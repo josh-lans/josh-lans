@@ -28,7 +28,15 @@ It's deliberately **tool-agnostic** — I direct Claude, OpenAI Codex, Gemini, a
 - *In Disaster Scenario:* Claude writes asset briefs that Codex executes, then Claude renders them into game-ready 3D/2D through Meshy and Scenario — covering the image/video generation that a single model can't.
 - *In MonLite:* a lab-resident OpenClaw agent runs alongside live SAP systems and databases (WSL home server), executing diagnostics and commands across systems, DBs, and collectors and coordinating with Claude on R&D.
 
-→ **[Read the methodology & grab the templates](https://github.com/josh-lans/monlite-portfolio/tree/main/claude-docs-templates)**
+→ **[The full methodology + templates: agentic-dev-kit](https://github.com/josh-lans/agentic-dev-kit)**
+
+---
+
+#### 🔗 Explore the work
+
+- **[Portfolio](https://github.com/josh-lans/portfolio)** — all three projects, with MonLite architecture & screenshots
+- **[agentic-dev-kit](https://github.com/josh-lans/agentic-dev-kit)** — the methodology and drop-in `.claude-docs` templates
+- **[Disaster Scenario](https://github.com/josh-lans/disaster-scenario-game)** — the game showcase & gallery (real screenshots)
 
 ---
 
