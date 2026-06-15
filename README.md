@@ -1,27 +1,43 @@
-### Hey, I'm Josh 👋
+### Hi, I'm Josh 👋
 
-I built an enterprise monitoring platform that rivals expensive SaaS tools—in 6 weeks, solo, using AI-assisted development.
+I'm an **applied AI engineer and forward-deployed builder** — an enterprise infrastructure specialist (12 years in mission-critical SAP & data operations) who now ships production software *fast* by orchestrating AI coding agents under a disciplined, documented workflow.
 
-12 years in SAP infrastructure → discovered AI-assisted development → shipped MonLite (full-stack observability covering SAP, 7 databases, hosts, and AI diagnostics).
+In the past year I independently designed and shipped **three production-grade systems** across three very different domains — using the same multi-agent methodology each time. Two of them put **production AI to work where most enterprises are still stuck at the demo stage** — with real, governed ROI.
 
 ---
 
-#### 🔭 What I'm Working On
+#### 🚀 What I've built
 
-**[MonLite](https://github.com/josh-lans/monlite-portfolio)** — An enterprise observability platform I designed and built from scratch. Monitors SAP ABAP/SAPControl systems, 7 database engines, Linux/Windows hosts, and web services with real-time alerting, AI diagnostics, and a glassmorphism React UI.
+**MonLite — Enterprise Observability Platform**
+A full-stack platform monitoring SAP, six database engines, hosts, and web services — engineered to replace a seven-figure commercial monitoring contract. Python/FastAPI control plane, distributed collector agents, a React 19 UI, SSO/RBAC, and ~5s HA failover. Scale-validated to 3,000+ monitored systems and 200+ concurrent users.
+> 🌙 **Luna** — its embedded AI diagnostic assistant — runs **fully air-gapped on a local LLM** so telemetry never leaves the firewall (with optional cloud fallback). RAG pipeline, 100+ diagnostic tools, live database querying, and anti-hallucination validation turn raw infrastructure telemetry into natural-language root-cause analysis. This is enterprise AI that ships *and* satisfies security.
 
-**[Watch the demo](https://www.youtube.com/watch?v=Qudo0nftRvQ)** (7 min)
+**Pathfinder — AI-Augmented SAP Migration Engine**
+A decision-support platform that turns static migration playbooks into tailored, interactive SAP-to-cloud (AWS / Azure / GCP / RISE) plans — driven by a multi-LLM authoring engine and a cumulative-intelligence loop that gets smarter with every migration.
 
-#### 🛠 Tech I Work With
+**Disaster Scenario — Cross-Platform Game** *(independent project)*
+A comedic multiplayer deckbuilder for Steam & mobile, built in Godot 4 — ~39k lines of GDScript, a deterministic unit-tested core, and online multiplayer over ENet. Proof the method travels well beyond enterprise software.
 
-`Python` `FastAPI` `React` `PostgreSQL` `SAP NetWeaver` `SAP HANA` `Oracle` `MSSQL` `DB2` `Docker` `Elasticsearch`
+---
 
-#### 🤖 AI-Assisted Development
+#### 🤖 The method: a multi-agent "Conductor" workflow
 
-I developed a structured methodology for building enterprise software with AI coding assistants — maintaining context across 160+ development sessions using a `.claude-docs` system of architecture docs, standards, dependency checklists, and session memory. Security features independently verified across Claude, OpenAI Codex, Gemini, and GitHub Copilot.
+The thing I'm most known for isn't any single app — it's *how* I build. I developed a repeatable methodology for production engineering with AI agents: a **Conductor** orchestrates parallel sub-agents in isolated git worktrees with bounded file scopes and manifest-driven task state, all governed by **living documentation** (architecture decision records, engineering standards, dependency maps, durable "memory" of gotchas, and per-session handoffs — 330+ on MonLite alone) and **human-approved quality gates** (no partial fixes, pre-merge verification, automated test/lint/security checks).
 
-**[Read the methodology](https://github.com/josh-lans/monlite-portfolio/blob/main/methodology/AI_DEVELOPMENT_METHODOLOGY.md)**
+It's deliberately **tool-agnostic** — I direct Claude, OpenAI Codex, Gemini, and Grok, plus generative pipelines (Meshy, Scenario) and a persistent ops agent (OpenClaw), assigning each to the work it does best:
+- *In Disaster Scenario:* Claude writes asset briefs that Codex executes, then Claude renders them into game-ready 3D/2D through Meshy and Scenario — covering the image/video generation that a single model can't.
+- *In MonLite:* a lab-resident OpenClaw agent runs alongside live SAP systems and databases (WSL home server), executing diagnostics and commands across systems, DBs, and collectors and coordinating with Claude on R&D.
 
-#### 📫 Get in Touch
+→ **[Read the methodology & grab the templates](https://github.com/josh-lans/monlite-portfolio/tree/main/claude-docs-templates)**
 
-**joshlans@me.com** · **[LinkedIn](https://linkedin.com/in/joshlans)**
+---
+
+#### 🛠 Tech I work with
+
+`Python` `FastAPI` `React 19` `TypeScript` `PostgreSQL` `Elasticsearch` `LLM / RAG` `Multi-provider AI` `Docker` `GitHub Actions` `SAP NetWeaver / HANA` `Oracle` `SQL Server` `Godot`
+
+---
+
+#### 📫 Get in touch
+
+**joshlans@me.com** · **[LinkedIn](https://www.linkedin.com/in/joshualans/)**
