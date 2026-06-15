@@ -1,6 +1,6 @@
 ### Hi, I'm Josh 👋
 
-I'm an **applied AI engineer and forward-deployed builder** — an enterprise infrastructure specialist (12 years in mission-critical SAP & data operations) who now ships production software *fast* by orchestrating AI coding agents under a disciplined, documented workflow.
+I'm an **AI Solutions Architect** — an enterprise systems specialist (12 years in mission-critical SAP & data operations) who turns hard problems into shipped, AI-powered systems by designing rigorously and orchestrating AI agents to build them, under a disciplined, documented workflow.
 
 In the past year I independently designed and shipped **three production-grade systems** across three very different domains — using the same multi-agent methodology each time. Two of them put **production AI to work where most enterprises are still stuck at the demo stage** — with real, governed ROI.
 
@@ -40,7 +40,7 @@ It's deliberately **tool-agnostic** — I direct Claude, OpenAI Codex, Gemini, a
 
 ---
 
-#### 🛠 Tech I work with
+#### 🛠 Stacks I deliver on *(via AI-assisted development)*
 
 `Python` `FastAPI` `React 19` `TypeScript` `PostgreSQL` `Elasticsearch` `LLM / RAG` `Multi-provider AI` `Docker` `GitHub Actions` `SAP NetWeaver / HANA` `Oracle` `SQL Server` `Godot`
 
