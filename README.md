@@ -10,19 +10,19 @@ In the past year I independently designed and shipped **three production-grade s
 
 **MonLite — Enterprise Observability Platform**
 A full-stack platform monitoring SAP, six database engines, hosts, and web services — the kind of capability commercial tools charge six-to-seven figures for. Python/FastAPI control plane, distributed collector agents, a React 19 UI, SSO/RBAC, and ~5s HA failover. Scale-tested to handle 3,000+ systems and 200+ concurrent users.
-> 🌙 **Luna** — its embedded AI diagnostic assistant — runs **fully air-gapped on a local LLM** so telemetry never leaves the firewall (with optional cloud fallback). RAG pipeline, 100+ diagnostic tools, live database querying, and anti-hallucination validation turn raw infrastructure telemetry into natural-language root-cause analysis. This is enterprise AI that ships *and* satisfies security.
+> 🌙 **Luna** — its embedded AI diagnostic assistant — runs **fully air-gapped on a local LLM** so telemetry never leaves the firewall (with optional cloud fallback). RAG pipeline, a broad catalog of diagnostic tools across 23 intent categories, live database querying, and anti-hallucination validation turn raw infrastructure telemetry into natural-language root-cause analysis. This is enterprise AI that ships *and* satisfies security.
 
 **Pathfinder — AI-Augmented SAP Migration Engine**
-A decision-support platform that turns static migration playbooks into tailored, interactive SAP-to-cloud (AWS / Azure / GCP / RISE) plans — driven by a multi-LLM authoring engine and a cumulative-intelligence loop that gets smarter with every migration.
+A decision-support platform that turns static migration playbooks into tailored, interactive SAP-to-cloud (AWS / Azure / GCP / RISE) plans — driven by **Scout**, a multi-LLM engine that drafts plans and answers questions grounded in the project's knowledge base, *proposes* structured next actions (flag an issue, capture a lesson) that a human approves before they commit, and a cumulative-intelligence loop that gets smarter with every migration.
 
 **Disaster Scenario — Cross-Platform Game** *(independent project)*
-A comedic multiplayer deckbuilder for Steam & mobile, built in Godot 4 — ~39k lines of GDScript, a deterministic unit-tested core, and online multiplayer over ENet. Proof the method travels well beyond enterprise software.
+A comedic multiplayer deckbuilder built end to end in Godot 4 and **deployed to Steam** (Windows / macOS / Steam Deck), launching soon — ~41k lines of GDScript, a deterministic unit-tested core, and real-time online multiplayer. Proof the method travels well beyond enterprise software.
 
 ---
 
 #### 🤖 The method: a multi-agent "Conductor" workflow
 
-The thing I'm most known for isn't any single app — it's *how* I build. I developed a repeatable methodology for production engineering with AI agents: a **Conductor** orchestrates parallel sub-agents in isolated git worktrees with bounded file scopes and manifest-driven task state, all governed by **living documentation** (architecture decision records, engineering standards, dependency maps, durable "memory" of gotchas, and per-session handoffs — 330+ on MonLite alone) and **human-approved quality gates** (no partial fixes, pre-merge verification, automated test/lint/security checks).
+The thing I'm most known for isn't any single app — it's *how* I build. I developed a repeatable methodology for production engineering with AI agents: a **Conductor** orchestrates parallel sub-agents in isolated git worktrees with bounded file scopes and manifest-driven task state, all governed by **living documentation** (architecture decision records, engineering standards, dependency maps, durable "memory" of gotchas, and per-session handoffs — 350+ on MonLite alone) and **human-approved quality gates** (no partial fixes, pre-merge verification, automated test/lint/security checks).
 
 It's deliberately **tool-agnostic** — I direct Claude, OpenAI Codex, Gemini, and Grok, plus generative pipelines (Meshy, Scenario) and a persistent ops agent (OpenClaw), assigning each to the work it does best:
 - *In Disaster Scenario:* Claude writes asset briefs that Codex executes, then Claude renders them into game-ready 3D/2D through Meshy and Scenario — covering the image/video generation that a single model can't.
