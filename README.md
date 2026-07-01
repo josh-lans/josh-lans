@@ -2,7 +2,7 @@
 
 I'm an **AI Solutions Architect** — an enterprise systems specialist (12 years in mission-critical SAP & data operations) who turns hard problems into shipped, AI-powered systems by designing rigorously and orchestrating AI agents to build them, under a disciplined, documented workflow.
 
-In the past year I independently designed and shipped **three production-grade systems** across three very different domains — using the same multi-agent methodology each time. Two of them put **production AI to work where most enterprises are still stuck at the demo stage** — with real, governed ROI.
+In the past year I independently designed and shipped **three production-grade systems** across three very different domains — using the same multi-agent methodology each time. Two are applied-AI platforms that go **past the demo stage where most enterprises are still stuck** — built with the governance and guardrails an enterprise actually requires.
 
 ---
 
